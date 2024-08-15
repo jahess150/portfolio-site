@@ -57,6 +57,42 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 80vh;
+    padding-left: 10%;
+}
+
+#intro {
+    max-width: 600px;
+    text-align: left;
+}
+
+#intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#work-link a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--primarycolor);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#work-link a:hover {
+    color: var(--accentcolor);
+}
+
 footer {
     text-align: center;
     margin-top: 20px;

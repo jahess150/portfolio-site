@@ -9,19 +9,19 @@ This website is built from scratch using **HTML**, **CSS**, and **JavaScript**. 
 ### Key Features
 
 - **Responsive Design**: Ensures the site is accessible and visually appealing across different devices (desktop, tablet, and mobile).
-- **Custom Styling**: CSS, with SASS/SCSS support, is used to style the site and achieve the desired look and feel, featuring a warm orange color palette.
+- **Custom Styling**: CSS, with Bootstrap support, is used to style the site and achieve the desired look and feel, featuring a warm orange color palette.
 - **Project Showcase**: Highlights the key projects I've worked on, with detailed descriptions and links to relevant repositories.
 - **Interactive Elements**: Incorporates dynamic JavaScript components for improved user experience.
 
 ## 🔨 Built With
 
 - **HTML5** for the structure
-- **CSS3** (including SASS/SCSS) for styling
+- **CSS3** (Including Bootstrap) for styling
 - **JavaScript** for interactive functionality
 
 ## 📈 My Goals with this Project
 
-This portfolio site serves as a demonstration of my web development skills, which I’m actively enhancing as I transition from teaching to data analytics and development. The site showcases both my technical abilities and my eye for design, with a focus on simplicity, usability, and performance.
+This portfolio site serves as a demonstration of my web development skills, which I’m actively enhancing as I transition from teaching to software and web development. The site showcases both my technical abilities and my eye for design, with a focus on simplicity, usability, and performance.
 
 ## ✍️ Author
 
