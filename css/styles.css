@@ -1,3 +1,10 @@
+/* Variables containing color scheme */
+:root {
+    --primarycolor: #ff8c42;
+    --secondarycolor: #ffe5b4;
+    --accentcolor: #8c3b00;
+}
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -12,24 +19,42 @@ body {
 }
 
 header {
-    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primarycolor);
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
 }
 
 nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* 20 pixels between links */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin: 0;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: var(--accentcolor);
+    border-radius: 5px;
 }
 
 footer {
